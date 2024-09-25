@@ -1,0 +1,15 @@
+.banner p {
+    font-size: 2rem;
+}
+
+.banner span {
+    color: var(--cor-destaque);
+}
+
+.cover {
+    height: 500px;
+    width: 100%;
+    background-image: url('../assets/Nav/baner.jpg');
+    background-size: cover;
+}
+
