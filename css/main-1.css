@@ -1,0 +1,13 @@
+.FotoMain-1{
+    width: 200px;
+    margin: 0px 50px;
+}
+
+.descricaoP{
+    width: 300px;
+    text-align: center;
+}
+
+div > div > div > button{
+    margin: 0px 100px;
+}
