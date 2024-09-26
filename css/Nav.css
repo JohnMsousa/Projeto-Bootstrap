@@ -2,7 +2,7 @@
 .fotoHeadear {
     height: 60vh;
     width: 100vw;
-    background-image: url("../assets/Nav/baner.jpg");
+    background-image: url(../assets/Nav/baner.jpg);
     background-size: cover;
 
     display: flex;
