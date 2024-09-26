@@ -1,12 +1,14 @@
 /* Banner */
-header {
+.fotoHeadear {
     height: 60vh;
-    background-image: url('/assets/Nav/baner.jpg');
+    width: 100vw;
+    background-image: url("../assets/Nav/baner.jpg");
     background-size: cover;
-    font-weight: 700;
-    color: #ffffff;
+
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    gap: 20px;
     align-items: center;
+    justify-content: center;
+    color: white;
 }
