@@ -3,11 +3,49 @@
     margin: 0px 50px;
 }
 
+
 .descricaoP{
     width: 300px;
+}
+
+div > .divCards > div > button{
+    margin: 0px 100px;
+}
+
+.divCards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.itemsCards{
+    padding: 20px;
     text-align: center;
 }
 
-div > div > div > button{
-    margin: 0px 100px;
+.containerComidas{
+    background-color: rgb(245, 223, 223);
+}
+
+.divComidas{
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.divComidas2{
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+.FotoComidas{
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.itemsComidas{
+    width: 500px;
 }
