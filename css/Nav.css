@@ -2,10 +2,6 @@
 header {
     height: 60vh;
     background-image: url('/assets/Nav/baner.jpg');
-/* Banner */
-header {
-    height: 60vh;
-    background-image: url('/assets/Nav/baner.jpg');
     background-size: cover;
     font-weight: 700;
     color: #ffffff;
