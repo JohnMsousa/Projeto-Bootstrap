@@ -16,11 +16,6 @@ nav{
 
 .descricaoP{
     text-align: justify;
-    font-weight: 500;
-}
-
-div > .divCards > div > button{
-    margin: 0px 100px;
 }
 
 .divCards{
@@ -33,6 +28,7 @@ div > .divCards > div > button{
 .itemsCards{
     padding: 20px;
     text-align: center;
+    min-height: 500px;
 }
 
 .containerComidas{
@@ -69,6 +65,11 @@ div > .divCards > div > button{
     width: 500px;
     height: 300px;
     border-radius: 20px;
+}
+
+.FotoComidas:hover{
+    transform: scale(1.05);
+    box-shadow: 5px 10px 10px rgb(88, 87, 87);
 }
 
 .itemsComidas{
