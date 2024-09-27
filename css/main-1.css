@@ -51,6 +51,19 @@ div > .divCards > div > button{
     justify-content: space-around;
 }
 
+.divComidas3{
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.divComidas4{
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
 .FotoComidas{
     width: 500px;
     height: 300px;
