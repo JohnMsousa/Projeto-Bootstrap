@@ -1,11 +1,22 @@
 .FotoMain-1{
     width: 200px;
-    margin: 0px 50px;
 }
 
+nav{
+    display: flex;
+}
+
+.gril{
+    color: rgb(255, 230, 0);
+}
+
+.sushi{
+    color: rgb(255, 166, 0);
+}
 
 .descricaoP{
-    width: 300px;
+    text-align: justify;
+    font-weight: 500;
 }
 
 div > .divCards > div > button{
