@@ -1,0 +1,35 @@
+@media (max-width: 1050px) {
+    .divCards{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .divComidas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .divComidas2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .divComidas3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .divComidas4{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .itemsComidas{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,23 @@
+:root {
+    --cor-01: #FFFFFF;
+    --cor-02: #ababab;
+    --cor-03: #000000;
+}
+
+footer {
+    background-color: var(--cor-03);
+    color: var(--cor-01);
+    padding: 1rem 5rem;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+  }
+
+  a{
+    text-decoration: none;
+    color: var(--cor-02);
+  }
+
+  a:hover{
+    text-decoration: underline;
+  }

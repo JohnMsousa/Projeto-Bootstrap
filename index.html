@@ -1,53 +1,244 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/main-1.css">
-    <link rel="stylesheet" href="./css/Nav.css">
-    <title>Document</title>
-
-</head>
-<body>
-   <!-- Banner -->
-   <header>
-    <h3>Descubra restaurantes e muito mais perto de você.</h3>
-
-    <!-- Buscar -->
-    <div class="mb-3">
-       <!-- Campo de entrada de texto -->
-      <input type="text" class="form-control" placeholder="🔎 Insira o endereço">
-    </div>
-</header>
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <img class="FotoMain-1" src="./assets/main-1/delivery.png" alt="">
-                <h1>Become a Dasher</h1>
-                <p class="descricaoP">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi fugit reiciendis odit odio soluta perferendis sed ex debitis beatae ad.
-                </p>
-                <button type="button" class="btn btn-outline-danger">peça já</button>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="./css/main-1.css" />
+        <link rel="stylesheet" href="./css/Nav.css" />
+        <link rel="stylesheet" href="./css/footer.css">
+        <link rel="stylesheet" href="./css/responsivo.css">
+        <title>Fusion Grill & Sushi</title>
+    </head>
+    <body>
+        <!-- Banner -->
+        <header>
+            <div class="fotoHeadear">
+              <h3>Descubra restaurantes e muito mais perto de você.</h3>
+              <!-- Buscar -->
+              <div class="mb-3">
+                  <!-- Campo de entrada de texto -->
+                  <input
+                      type="text"
+                      class="form-control"
+                      placeholder="🔎 Insira o endereço"
+                  />
+              </div>
             </div>
-            <div class="col">
-                <img class="FotoMain-1" src="./assets/main-1/shops.png" alt="">
-                <h1>Become a Dasher</h1>
-                <p class="descricaoP">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi fugit reiciendis odit odio soluta perferendis sed ex debitis beatae ad.
-                </p>
-                <button type="button" class="btn btn-outline-danger">Venha visitar nossa loja</button>
+        </header>
+        <main>
+                <div class="container">
+                    <div class="divCards">
+                        <div class="itemsCards">
+                            <img
+                                class="FotoMain-1"
+                                src="./assets/main-1/delivery.png"
+                                alt=""
+                            />
+                            <h1>Become a Dasher</h1>
+                            <p class="descricaoP">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing
+                                elit. Sequi fugit reiciendis odit odio soluta
+                                perferendis sed ex debitis beatae ad.
+                            </p>
+                            <button type="button" class="btn btn-outline-danger">
+                                peça já
+                            </button>
+                        </div>
+                        <div class="itemsCards">
+                            <img
+                                class="FotoMain-1"
+                                src="./assets/main-1/shops.png"
+                                alt=""
+                            />
+                            <h1>Become a Dasher</h1>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste fugit a facere veniam! Omnis autem odio, natus quibusdam ea necessitatibus optio nisi recusandae adipisci. Sit provident veniam aut consequatur pariatur?
+                            </p>
+                            <button type="button" class="btn btn-outline-danger">
+                                Venha visitar nossa loja
+                            </button>
+                        </div>
+                        <div class="itemsCards">
+                            <img
+                                class="FotoMain-1"
+                                src="./assets/main-1/smartphone.png"
+                                alt=""
+                            />
+                            <h1> app</h1>
+                            <p class="descricaoP">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing
+                                elit. Sequi fugit reiciendis odit odio soluta
+                                perferendis sed ex debitis beatae ad.
+                            </p>
+                            <button type="button" class="btn btn-outline-danger">
+                                nosso app
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="containerComidas">
+                    <div class="divComidas">
+                        <div class="itemsComidas">
+                            <h1>Comida japonesa</h1>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus laborum explicabo atque dolorum nisi aliquid debitis provident ut sed iusto!
+                            </p>
+                            <button type="button" class="btn btn-danger">Cardapio</button>
+                        </div>
+                        <img class="FotoComidas" src="./assets/main-1/pexels-isabella-mendes-107313-858508.jpg" alt="">
+                    </div>
+                    <div class="divComidas2">
+                        <div class="itemsComidas">
+                            <h1>Churrasco</h1>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus laborum explicabo atque dolorum nisi aliquid debitis provident ut sed iusto!
+                            </p>
+                            <button type="button" class="btn btn-danger">Cardapio</button>
+                        </div>
+                        <img class="FotoComidas" src="./assets/main-1/pexels-pixabay-533325.jpg" alt="">
+                    </div>
+                    <div class="divComidas3">
+                      <div class="itemsComidas">
+                          <h1>Yakisoba</h1>
+                          <p>
+                              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus laborum explicabo atque dolorum nisi aliquid debitis provident ut sed iusto!
+                          </p>
+                          <button type="button" class="btn btn-danger">Cardapio</button>
+                      </div>
+                      <img class="FotoComidas" src="./assets/main-1/yakisoba.jpg" alt="">
+                  </div>
+                  <div class="divComidas4">
+                      <div class="itemsComidas">
+                          <h1>Feijoada</h1>
+                          <p>
+                              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus laborum explicabo atque dolorum nisi aliquid debitis provident ut sed iusto!
+                          </p>
+                          <button type="button" class="btn btn-danger">Cardapio</button>
+                      </div>
+                      <img class="FotoComidas" src="./assets/main-1/feijoada.jpg" alt="">
+                  </div>
+                </div>
+        </main>
+        <footer class="text-center text-lg-start">
+            <!-- Grid container -->
+            <div class="container p-1">
+              <!--Grid row-->
+              <div class="row">
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                  <h5 class="text-uppercase">Categorias populares</h5>
+          
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a href="#!">Entrega de Álcool</a>
+                    </li>
+                    <li>
+                      <a href="#!">Entrega de volta às aulas</a>
+                    </li>
+                    <li>
+                      <a href="#!">Lojas de beleza</a>
+                    </li>
+                    <li>
+                      <a href="#!">Suprimentos de beleza</a>
+                    </li>
+                    <li>
+                        <a href="#!">Catering perto de mim</a>
+                    </li>
+                    <li>
+                        <a href="#!">Lojas de conveniência Canadá</a>
+                    </li>
+                  </ul>
+                </div>
+                <!--Grid column-->
+          
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="mb-4"></h5>
+                  <ul class="list-unstyled">
+                    <li>
+                      <a href="#!">Dashmart perto de mim</a>
+                    </li>
+                    <li>
+                      <a href="#!">Deck na porta</a>
+                    </li>
+                    <li>
+                      <a href="#!">Farmácias Canadá</a>
+                    </li>
+                    <li>
+                      <a href="#!">Entrega de flores</a>
+                    </li>
+                    <li>
+                        <a href="#!">Entrega de mantimentos no Canadá</a>
+                    </li>
+                    <li>
+                        <a href="#!">Dia das Bruxas</a>
+                    </li>
+                  </ul>
+                </div>
+                <!--Grid column-->
+          
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="mb-4"></h5>
+          
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a href="#!">Banco Hsa</a>
+                    </li>
+                    <li>
+                      <a href="#!">Loja HSA FSA</a>
+                    </li>
+                    <li>
+                      <a href="#!">Pedidos de grandes grupos</a>
+                    </li>
+                    <li>
+                      <a href="#!">Entrega de medicamentos</a>
+                    </li>
+                    <li>
+                      <a href="#!">Dia das Mães</a>
+                    </li>
+                    <li>
+                      <a href="#!">Loja de animais perto de mim</a>
+                    </li>
+                  </ul>
+                </div>
+                <!--Grid column-->
+          
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="mb-4"></h5>
+          
+                    <ul class="list-unstyled mb-0">
+                      <li>
+                        <a href="#!">Lojas de varejo perto de mim</a>
+                      </li>
+                      <li>
+                        <a href="#!">Feriados Sazonais</a>
+                      </li>
+                      <li>
+                        <a href="#!">EBT instantâneo</a>
+                      </li>
+                      <li>
+                        <a href="#!">Dia dos Namorados</a>
+                      </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+              </div>
+              <!--Grid row-->
             </div>
-            <div class="col">
-                <img class="FotoMain-1" src="./assets/main-1/smartphone.png" alt="">
-                <h1>Become a Dasher</h1>
-                <p class="descricaoP">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi fugit reiciendis odit odio soluta perferendis sed ex debitis beatae ad.
-                </p>
-                <button type="button" class="btn btn-outline-danger">baixe nosso app</button>
-            </div>
-        </div>
-    </div>
-</body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+            <!-- Grid container -->
+          </footer>
+    </body>
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"
+    ></script>
 </html>
