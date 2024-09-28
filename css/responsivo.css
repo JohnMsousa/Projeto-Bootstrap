@@ -35,14 +35,7 @@
 }
 
 @media (max-width: 600px){
-    .menu-responsivo {
-        display: block;
-    }
-    .custom-navbar .btn{
+    .btn{
         display: none;
-    }
-
-    .navbar{
-        display: block;
     }
 }

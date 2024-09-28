@@ -22,38 +22,44 @@
         <title>Fusion Grill & Sushi</title>
     </head>
     <body>
-      <nav class="navbar custom-navbar">
+      <nav class="navbar navbar-expand-lg custom-navbar navbar-dark">
         <div class="container-fluid">
           <a class="navbar-brand mx-auto" href="#">
-            <img src="/assets/icon/bibimbap.png" alt="Logo" width="30" height="24" class="mb-2">
+            <img src="/assets/icon/bibimbap.png" alt="Logo" width="30" height="24" class="mb-1">
             <span class="gril"> Grill</span> 
             <span class="ampersand">&</span> 
             <span class="sushi">Sushi</span>
             </a>
-            <button type="button" class="btn btn-outline-danger">
-              Login
-            <button type="button" class="btn btn-outline-danger">
-              Open App
-        </div>
-        <!-- Menu Responsivo (dropdown com checkbox) -->
-        <div class="menu-responsivo">
-          <input type="checkbox" id="menu-toggle">
-
-          <label for="menu-toggle" class="menu-button">
-            <i class="bx bx-menu"></i>
-          </label>
-
-          <div class="menu-content">
-              <ul>
-                  <li><a href="#">HOME</a></li>
-                  <li><a href="#">ENDEREÇO</a></li>
-                  <li><a href="#">CARDAPIO</a></li>
-                  <li><a href="#">TELEFONE</a></li>
-              </ul>
+          
+          <!-- Botão do menu hamburguer -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <!-- Menu colapsado -->
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto "> <!-- ms-auto para empurrar para a direita -->
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Endereço</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contato</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sobre</a>
+              </li>
+            </ul>
           </div>
-        </div>
+            <div class="d-flex flex-row ms-3">
+              <button type="button" class="btn">Login</button>
+              <button type="button" class="btn">Open App</button> <!-- ms-2 para margem à esquerda -->
+            </div>
+          </div>
       </nav>
-
+      
         <!-- Banner -->
         <header>
             <div class="fotoHeadear">
