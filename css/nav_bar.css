@@ -2,12 +2,12 @@
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: red;
+  background-color: #b90a0a;
   color: white;
   }
 
 .navbar-nav a{
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: white;
 }
 
